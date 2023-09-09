@@ -48,6 +48,7 @@ const createTodo = (value) => {
   input.value = "";
   // 5
   const check = document.createElement("input");
+  check.className="checkbox"
   check.type = "checkbox";
   listItem.insertBefore(check, listItem.firstChild);
   check.addEventListener("change", (e) => {
