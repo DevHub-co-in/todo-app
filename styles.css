@@ -1,1 +1,63 @@
+
 /* TASK: ADD CSS STYLES! */
+body{
+    background-color: #EEA47F;
+    color: #00539C;
+}
+.header{
+    margin: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+}
+#add,.delete, .edit{
+    background-color:#00539C;
+    border-radius: 1rem;
+    color:white;
+    width:4rem;
+    height:2rem;
+    font-weight: bold;
+    border:solid 2px #00539C;
+}
+#input{
+    height:2rem;
+    border:solid 2px #00539C;
+    border-radius: 2rem;
+    padding: 1px;
+    padding-left:8px
+}
+.input-container{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.container{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    
+}
+.list-container{
+    display:flex;
+    justify-content: center;
+}
+.delete{
+    margin:0.5rem;
+
+}
+.list-content{
+    background-color: white;
+    border:2px solid #00539C;
+    border-radius: 2rem;
+    padding: 8px;
+    font-weight: bold;
+}
+.footer{
+    width:100vw;
+    position:fixed;
+    bottom:0px;
+    font-size: larger;
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+}
